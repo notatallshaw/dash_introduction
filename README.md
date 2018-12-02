@@ -49,4 +49,17 @@ I would recommend installing an IDE or advanced Text Editor and getting used to 
  * https://code.visualstudio.com
  * https://www.sublimetext.com
  * Or whatever works for you!
+ 
+# FAQ
 
+ 1. Do I need to pay for Plotly or Dash?
+ No! Most features for both Plotly and Dash are free, and this introduction will only cover how to set-up your own website that does not use any of the paid for features that Plotly provides.
+ 
+ 2. Do I need to understand JavaScript?
+ No! Dash is specifically created for Python developers to code purely in Python. More advanced features like building your own Dash Components will require an understanding of JavaScript and React.js this is not needed for building even complex interactive sites.
+ 
+ 3. Do I need to understand HTML or CSS?
+ A little bit helps. A very basic understanding of HTML is required and the more CSS you understand the prettier you will be able to make your sites.
+ 
+ 4. Could I build a complex web application using Dash?
+ Yes... Dash is designed to make very easy to build single web pages. Building large complex web applications using just Dash is possible but will require some effort by you!
