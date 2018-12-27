@@ -28,10 +28,13 @@ Remember to select the "include in PATH" option when installing, it will be much
 
 ## Install the modules
 
-If you installed Anaconda it is easier to the "conda" package manager to install modules. Simply type the following in the command line:
+If you installed Anaconda it is easier to the "conda" package manager to install modules. Simply add the conda-forge channel if not already done:
 
-    conda install requests pandas plotly
-    conda install dash dash-html-components dash-core-components -c conda-forge
+    conda config --append channels conda-forge
+    
+And then install the modules (the specific cryptography and zeromq packages are due to problems I was having installing on Windows):
+
+    conda create -n dash python dash dash-core-components dash-html-components cryptography=2.3.1 zeromq=4.2.3
     
  If you installed Python from Python.org or are using your system Python install then one of the following commands should work:
  
