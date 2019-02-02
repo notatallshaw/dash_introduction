@@ -7,6 +7,8 @@ from datetime import datetime
 import pandas as pd
 
 
+# Originally got data from: https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
+# Export > CSV
 CURRENT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 CSV_FILE_PATH = os.path.join(CURRENT_DIRECTORY, '311_Service_Requests_from_2010_to_Present.csv')
 FIELDS = ['Created Date',
