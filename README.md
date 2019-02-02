@@ -4,6 +4,7 @@ Dash is a tool for creating interactive data visualization web sites, in particu
 
  * https://dash.plot.ly/
  * https://plot.ly/python/
+ * https://plot.ly/python/reference/
 
 
 # Prerequisites 
